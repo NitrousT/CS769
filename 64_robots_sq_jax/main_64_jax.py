@@ -67,8 +67,6 @@ Ax_eq = jnp.asarray(loadmat('matrix_computation/Ax_eq.mat')['Ax_eq'])
 # bz_eq = jnp.asarray(loadmat('bz_eq.mat')['bz_eq'])
 Ax_eq_obs = jnp.asarray(loadmat('matrix_computation/Ax_eq_obs.mat')['Ax_eq_obs'])
 
-# compute_x_jit = jit(optim_jax.compute_x)
-# compute_dobs_jit = jit(optim_jax.compute_dobs)
 
 print('Starting Actual Computation')
 
